@@ -1,0 +1,8 @@
+{
+	"svelteIndentScriptAndStyle": false,
+	"svelteBracketNewLine": false,
+	"printWidth": 120,
+	"semi": true,
+	"singleQuote": false,
+	"useTabs": true
+}
