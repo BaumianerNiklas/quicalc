@@ -19,7 +19,7 @@ export let time: number;
 const heading = gameMode === GameMode.Time ? `Time Mode [${formatTime(time)}]` : "";
 const answersLen = answers.length;
 const correctAnswers = answers.filter((a) => a.correct).length;
-const correctPercent = (correctAnswers / answersLen) * 100;
+const correctPercent = answersLen === 0 ? 0 : (correctAnswers / answersLen) * 100;
 const avgTimePerAnswer = (answers.reduce((acc, a) => acc + a.timeTaken, 0) / answersLen / 1000).toFixed(2);
 </script>
 
