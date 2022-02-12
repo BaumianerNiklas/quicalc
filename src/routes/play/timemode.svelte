@@ -66,10 +66,10 @@ button {
 	background-color: transparent;
 	border: 3px solid var(--secondary-blue);
 	color: white;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	border-radius: 10px;
-	width: 5rem;
-	height: 3rem;
+	width: 6.5rem;
+	height: 4.5rem;
 }
 
 button:hover {
@@ -80,9 +80,11 @@ button:hover {
 	background-color: var(--secondary-blue);
 }
 .start-button {
-	font-size: 1.4rem;
+	font-size: 2.5rem;
 	background-color: var(--secondary-green);
 	border: none;
 	margin-top: 2rem;
+	width: 7rem;
+	height: 5rem;
 }
 </style>
