@@ -12,7 +12,7 @@ const config = {
 		adapter: adapter(),
 
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: "#svelte",
+		// target: "#svelte", // according to Vercel this is not necessary (it also breaks the vercel build)
 
 		vite: {
 			resolve: {
