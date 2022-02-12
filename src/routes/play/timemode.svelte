@@ -37,7 +37,7 @@ const selectButtonClassList = (time: number, ..._dependencies: any) => {
 	{/if}
 	{#if !started}
 		<div class="time-select-container">
-			<button class={selectButtonClassList(60, selectedTime)} on:click={() => handleTimeSelect(10)}>1:00</button>
+			<button class={selectButtonClassList(60, selectedTime)} on:click={() => handleTimeSelect(60)}>1:00</button>
 			<button class={selectButtonClassList(180, selectedTime)} on:click={() => handleTimeSelect(180)}>3:00</button>
 			<button class={selectButtonClassList(300, selectedTime)} on:click={() => handleTimeSelect(300)}>5:00</button>
 		</div>
@@ -66,7 +66,7 @@ button {
 	background-color: transparent;
 	border: 3px solid var(--secondary-blue);
 	color: white;
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	border-radius: 10px;
 	width: 5rem;
 	height: 3rem;
